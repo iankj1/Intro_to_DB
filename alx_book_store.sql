@@ -17,8 +17,8 @@ publication_date DATE NOT NULL
 
 CREATE TABLE Customers(
 customer_id INT PRIMARY KEY AUTO_INCREMENT,
-customer_name VARCHAR (215) NOT NULL,
-email VARCHAR (215) UNIQUE NOT NULL,
+customer_name VARCHAR(215) NOT NULL,
+email VARCHAR(215) UNIQUE NOT NULL,
 address TEXT
 );
 
